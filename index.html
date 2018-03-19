@@ -1,1 +1,771 @@
-Hello World!
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Architectures and Evaluation for Generality, Autonomy &amp; Progress in AI Workshop at FAIM</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="css/agency.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Architectures and Evaluation for Generality, Autonomy &amp; Progress in AI</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#cfp">Call for Papers</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#program">Program</a>
+                    </li>
+                    <!--li>
+                        <a class="page-scroll" href="#proceedings">Papers</a>
+                    </li-->
+                    <li>
+                        <a class="page-scroll" href="#organisation">Organization</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#submission">Submission</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">FAIM Workshop on</div>
+                <div class="intro-heading">Architectures and Evaluation for Generality, Autonomy &amp; Progress in AI</div>
+                <!--a href="#program" class="page-scroll btn btn-xl">Program</a-->
+            </div>
+        </div>
+    </header>
+
+    <!-- Overview Section -->
+    <section id="cfp">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h2 class="section-heading">Architectures and Evaluation for Generality, Autonomy &amp; Progress in AI</h2>
+                    <h3 class="section-heading">Call for Papers</h3>
+                    <p>The Joint Workshop on Architectures and Evaluation for Generality, Autonomy and Progress in AI (AEGAP) focuses on our field's original grand dream: the creation of cognitive autonomous agents with general intelligence that matches (or exceeds) that of humans. We want AI that understands its users and their values so it we can form beneficial and satisfying relationships with them. </p>
+                    <p>In 2018, it is about three decades since John McCarthy published a new version of his 1971 Turing Award Lecture on “Generality in Artificial Intelligence”. Since he coined the term "Artificial Intelligence", the field has come a long way. Progress has certainly been made as AI grew from a niche science to a multi-billion dollar endeavor that solves many tasks and a household term that is often viewed to be the future of everything. However, it is not clear how much progress has been made exactly, and especially with respect to AI's grand dream. </p>
+                    <p>As the task turned out to be more difficult than anticipated in the 1950s, a divide-and-conquer approach was adopted that has resulted in a very successful but fractured field. AEGAP aims to bring together researchers from different sub-disciplines to discuss how the different approaches and techniques can contribute to the goal of building beneficial AI with high levels of generality and autonomy. To achieve this goal we will likely need to build large-scale, complex and dynamic architectures that can integrate bottom-up and top-down approaches. One hopeful avenue may be to combine logic- or rule-based top-down approaches with neuroscience-inspired bottom-up approaches, so that intelligence might emerge from their interplay. </p>
+                    <p>This cannot be done without methods for evaluating the different approaches to AI as they exist now and are developed in the future. While we can readily see the performance of AI systems in specific domains, it is more difficult to assess progress in AI, ML and autonomous agents when we put the focus on generality and autonomy. Real progress in this direction only takes place when a system exhibits enough autonomous flexibility to find a diversity of solutions for a range of tasks, some of which may not be known until after the system is deployed. Many evaluation platforms exist (see <a href="https://www.aaai.org/ojs/index.php/aimagazine/article/view/2748">here</a>), but open research questions remain about how to define batteries or curricula of tasks that capture notions such as generality, transfer or learning to learn, with gradients of difficulty that actually represent the progress we want to make in several directions. The question of fully autonomous reproducibility must also been understood as the goals become more open and general.</p>
+                    <p>We welcome regular papers, short papers, demo papers about benchmarks or tools, and position papers, and encourage discussions over a broad list of topics. As AEGAP is the result of a merger between the Third Workshop on Evaluating Generality and Progress in Artificial Intelligence (EGPAI), the Second Workshop on Architectures for Generality &amp; Autonomy (AGA) and the First Workshop on General AI Architecture of Emergence and Autonomy (AAEA), we are interested in submissions on both evaluation and architectures:</p>
+                    
+                    <h4>Evaluation of Generality, Autonomy and Progress in AI:</h4>
+                    <ul>
+                        <li>Analysis, comparisons and proposals of AI/ML benchmarks and competitions. Lessons learnt.</li>
+                        <li>Theoretical or experimental accounts of the space of tasks, abilities and their dependencies.</li>
+                        <li>Tasks and methods for evaluating: transfer learning, cognitive growth, development, cumulative learning, structural self-modification and self-programming.</li>
+                        <li>Conceptualisations and definitions of generality or abstraction in AI / ML systems.</li>
+                        <li>Unified theories for evaluating intelligence and other cognitive abilities, independently of the kind of subject (humans, animals or machines): universal psychometrics.</li>
+                        <li>Evaluation of conversational bots, dialogue systems and personal assistants.</li>
+                        <li>Evaluation of common sense, reasoning, understanding, causal relations. </li>
+                        <li>Evaluation of multi-agent systems in competitive and cooperative scenarios, evaluation of teams, approaches from game theory.</li>
+                        <li>Better understanding of the characterisation of task requirements and difficulty (energy, time, trials needed...), beyond algorithmic complexity. Item generation. Item Response Theory (IRT).</li>
+                        <li>Evaluation of AI systems using generalised cognitive tests for humans. Computer models taking IQ tests. Psychometric AI.</li>
+                        <li>Assessment of replicability, reproducibility and openness in AI / ML systems.</li>
+                        <li>Evaluation methods for multiresolutional perception in AI systems and agents. Analysis of progress scenarios, AI progress forecasting, associated risks.</li>
+                    </ul>
+                    <h4>Architectures for Generality and Autonomy:</h4>
+                    <ul>
+                        <li>Analysis of requirements for autonomy / generality</li>
+                        <li>Design proposals for cognitive architectures targeting generality and/or autonomy</li>
+                        <li>Synergies between AI approaches</li>
+                        <li>Integration between top-down and bottom-up approaches</li>
+                        <li>Emergence of (symbolic) logic from neural networks</li>
+                        <li>New programming languages relevant to generality and autonomy</li>
+                        <li>New methodologies relevant to generality and autonomy</li>
+                        <li>New architectural principles relevant to generality and autonomy</li>
+                        <li>Complex (e.g. layered, hierarchical or recursive) network architectures for generality and autonomy</li>
+                        <li>New theoretical insights relevant to generality and autonomy</li>
+                        <li>(Intrinsic) motivation for enabling autonomous behavior selection and learning</li>
+                        <li>Analysis of the potential and limitations of existing approaches</li>
+                        <li>Methods for epigenetic development</li>
+                        <li>Education to achieve general ((super)human-like) performance</li>
+                        <li>Baby machines</li>
+                        <li>Symbol emergence</li>
+                        <li>Curiosity, emotion, motivation</li>
+                        <li>Meta planning</li>
+                        <li>Complex layered networked systems and architectures</li>
+                        <li>Swarm intelligence</li>
+                    </ul>
+                    
+                    
+                </div>
+                <div class="col-lg-4">
+                    <a href="http://ijcai-18.org">
+                        <img src="img/logos/ijcai.png" alt="IJCAI-18" width="246" border="0" class="img-responsive img-centered">
+                    </a>
+                    <h4 class="section-heading">Key Information:</h4>
+                    <dl class="dl-horizontal">
+                        <dt>When:</dt><dd>July 13/14/15 (TBD)</dd>
+                        <dt>Where:</dt>
+                      <dd>Stockholm, Sweden</dd>
+                    </dl>
+                    <h4 class="section-heading">Paper &amp; Demo submission:</h4>
+                    <dl class="dl-horizontal">
+                        <dt>Due date:</dt><dd><s>TBD</s></dd>
+                        <dt>Notification date:</dt><dd><s>TBD</s></dd>
+                        <dt>Camera-ready date:</dt><dd><s>TBD</s></dd>
+                        <dt>Submission system:</dt><dd>EasyChair</dd>
+                    </dl>
+                    <h4 class="section-heading">Contact:</h4>
+                    <left>
+                        <a href="mailto:aegap2018@gmail.com">aegap2018@gmail.com</a>
+                    </left>
+                    <!--h4 class="section-heading"><br>
+                  HELP SPREAD THE WORD!</h4>
+                    <p><span class="section-subheading text-muted">Please use these <a href="cfp.txt">text</a> or <a href="cfp.html">HTML / rich text</a> versions of our CfP for distribution on other media.</span></p-->
+                    
+                </div>
+            </div>
+            <!--div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href="#submission" class="page-scroll btn btn-xl">submission details</a>
+                </div>
+            </div-->
+        </div>
+    </section>
+
+    <!-- Program Section -->
+    <section id="program" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-heading"><span class="section-subheading text-muted">tentative</span></h3>
+                    <h2 class="section-heading">Program</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 text-center">
+                    The program will consist of invited talks, contributed talks, group discussions and a poster &amp; demonstration session. The program is currently highly tentative as we are awaiting the FAIM Workshop Committee's decision on being allowed a two-day workshop slot. 
+                    <!--table class="table table-hover table-striped" style="text-align: left">
+                      <thead>
+                        <tr>
+                          <th>Time</th>
+                          <th>Event</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr><th scope="row">8:00-8:45</th><td>Registration</td></tr>
+                        <tr><th scope="row">8:45-9:00</th><td><strong>Welcome</strong></td></tr>
+                        <tr>
+                          <th scope="row">9:00-10:00</th>
+                          <td>Keynote 1</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">10:00-10:30</th><td>Coffee break</td></tr>
+                        <tr>
+                            <th scope="row">10:30-12:30</th><td><strong>Contributed talks</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                        <th scope="row">12:30-14:00</th><td>Lunch</td></tr>
+                        <tr><th scope="row">14:00-16:00</th>
+                            <td>Contributed talks</td>
+                        </tr>
+                          
+                        <tr>
+                        <th scope="row">16:00-16:30</th><td>Coffee break</td></tr>
+                        <tr><th scope="row">16:30-17:30</th>
+                          <td>Keynote 2</td></tr>
+                        <tr><th scope="row">17:30-18:00</th>
+                        <td>Poster &amp; Demo Session</td></tr>
+                      </tbody>
+                    </table-->
+                </div>
+                <!--div class="col-sm-4 text-center">
+                    <h3 class="section-subheading" style="margin-bottom: 10px;">Invited speaker:</h3>
+                    <div class="team-member" style="margin: 0;">
+                        <a href="http://www.cs.bham.ac.uk/~axs/"><img src="img/people/sloman.jpg" class="img-responsive img-circle" width="150px" alt=""></a>
+                        <h4 style="margin-top: 10px;">Dr. Aaron Sloman</h4>
+                        <p class="text-muted">University of Birmingham</p>
+                    </div>
+                    <div class="team-member" style="margin: 0;">
+                      <p class="text-muted"></p>
+                    </div>
+                </div-->
+            </div>
+        </div>
+    </section>
+    
+    <!--section id="proceedings">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Pre-Proceedings</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+          <p>Papers were accepted after being peer reviewed by 2-3 reviewers per paper.</p>
+          <ul>
+            <li>Noa Agmon, Oleg Maximov, Ariel Rosenfeld, Shai Shlomai and Sarit Kraus <br> <a href="proceedings/AGA_2017_Agmon_et_al.pdf">Multiple Robots For Multiple Missions: Architecture for Complex Collaboration</a></li>
+            <li>Joscha Bach <br> <a href="proceedings/AGA_2017_Bach.pdf">The Cortical Conductor Theory: Towards Addressing Consciousness in AI Models</a></li>
+            <li>Louise Dennis, Elisa Cucco and Michael Fisher <br> <a href="proceedings/AGA_2017_Dennis_et_al.pdf">A General Architecture for Flexible Autonomous Systems</a></li>
+            <li>Pawel Gomoluch, Dalal Alrajeh, Alessandra Russo and Antonio Bucchiarone <br> <a href="proceedings/AGA_2017_Gomoluch_et_al.pdf">Towards learning domain-independent planning heuristics</a></li>
+            <li>Patrick Hammer, Tony Lofthouse and Pei Wang <br> <a href="proceedings/AGA_2017_Hammer_et_al.pdf">OpenNARS Demonstration of Autonomous Learning and Decision-Making</a></li>
+            <li>Bernhard Hengst, Maurice Pagnucco, David Rajaratnam, Claude Sammut and Michael Thielscher <br> <a href="proceedings/AGA_2017_Hengst_et_al.pdf">Context In Cognitive Hierarchies</a></li>
+            <li>Gavin Rens, Thomas Meyer and Deshendran Moodley <br> <a href="proceedings/AGA_2017_Rens_et_al.pdf">A Stochastic Belief Management Architecture for Agent Control</a></li>
+            <li>Claes Strannegård, Nils Svangård, David Lindström, Joscha Bach and Bas Steunebrink <br> <a href="proceedings/AGA_2017_Strannegard_et_al.pdf">The Animat Path to Artificial General Intelligence</a></li>
+            <li>Kristinn R. Thórisson <br> <a href="proceedings/AGA_2017_Thorisson.pdf">Machines with Autonomy & General Intelligence: Which Methodology?</a></li>
+            <li>Hiroshi Yamakawa, Naoya Arakawa and Koichi Takahashi <br> <a href="proceedings/AGA_2017_Yamakawa_et_al.pdf">Reinterpreting The Cortical Circuit</a></li>
+            
+          </ul>
+          </div>
+        </div>
+        <!--div class="row">
+          <div class="col-lg-12 text-center">
+            <a href="https://easychair.org/conferences/?conf=aga2018" class="btn btn-xl">submit camera-ready</a>
+          </div>
+        </div->
+      </div>
+    </section-->
+    
+
+    <!-- Organisation Section -->
+    <section id="organisation">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Organization</h2>
+                </div>
+            </div>
+            
+            <div class="row">
+                <h3 class="section-heading text-center">General AI Architecture of Emergence &amp; Autonomy</h3>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/people/satoshi.jpg" alt="" width="160" height="160" class="img-responsive img-circle">
+            <h4>Dr. Satoshi Kurihara (contact)</h4>
+                        <p class="text-muted">University of Electro-Communications, Japan<br>&nbsp;</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="http://www.ics.lab.uec.ac.jp/s-kuri/"><i class="fa fa-link"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/satoshi-kurihara-23501560/"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/people/kenji.jpg" alt="" width="160" height="160" class="img-responsive img-circle">
+            <h4>Dr. Kenji Doya</h4>
+                        <p class="text-muted">Okinawa Institute for Science and Technology, Japan<br>&nbsp;</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://groups.oist.jp/ncu"><i class="fa fa-link"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/people/itsuki.jpg" alt="" width="160" height="160" class="img-responsive img-circle">
+            <h4>Dr. Itsuki Noda</h4>
+                        <p class="text-muted">National Institute of Advanced Industrial Science and Technology, Japan</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://staff.aist.go.jp/i.noda/index.en.html"><i class="fa fa-link"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/people/hiroaki.png" alt="" width="160" height="160" class="img-responsive img-circle">
+            <h4>Dr. Hiroaki Wagatsuma</h4>
+                        <p class="text-muted">Kyushu Institute of Technology, Japan</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://research02.jimu.kyutech.ac.jp/html/358_en.html"><i class="fa fa-link"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/hiroaki-wagatsuma-08a5207b/"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/people/tadahiro.jpg" alt="" width="160" height="160" class="img-responsive img-circle">
+            <h4>Dr. Tadahiro Taniguchi</h4>
+                        <p class="text-muted">Ritsumeikan University, Japan</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="http://www.em.ci.ritsumei.ac.jp/"><i class="fa fa-link"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/tadahiro-taniguchi-1b680013/"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/people/hiroshi.jpg" alt="" width="160" height="160" class="img-responsive img-circle">
+            <h4>Dr. Hiroshi Yamakawa</h4>
+                        <p class="text-muted">University of Tokyo &amp; Dwango AI Lab, Japan</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="http://ailab.dwango.co.jp/en/"><i class="fa fa-link"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/hiroshi-yamakawa-477a9949/"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="row">
+                <h3 class="section-heading text-center">Architectures for Generality &amp; Autonomy</h3>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/people/kris.jpg" alt="" width="160" height="160" class="img-responsive img-circle">
+            <h4>Dr. Kristinn R. Thórisson (contact)</h4>
+                        <p class="text-muted">Reykjavik University &amp; Icelandic Institute for Intelligent Machines, Iceland</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="http://www.ru.is/faculty/thorisson/"><i class="fa fa-link"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/thorisson"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/people/pei.jpg" alt="" width="160" height="160" class="img-responsive img-circle">
+            <h4>Dr. Pei Wang</h4>
+                        <p class="text-muted">Temple University, U.S.<br>&nbsp;</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="http://cis-linux1.temple.edu/~pwang/"><i class="fa fa-link"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/pei-wang-3a46241/"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/people/claes.jpg" alt="" width="160" height="160" class="img-responsive img-circle">
+            <h4>Dr. Claes Strannegård</h4>
+                        <p class="text-muted">Chalmers University of Technology &amp; University of Gothenburg, Sweden</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://www.chalmers.se/en/Staff/Pages/claes-strannegard.aspx"><i class="fa fa-link"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/claes-stranneg%C3%A5rd-9641714/"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/people/antonio.jpg" alt="" width="160" height="160" class="img-responsive img-circle">
+            <h4>Dr. Antonio Chella</h4>
+                        <p class="text-muted">University of Palermo, Italy<br>&nbsp;</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://www.unipa.it/persone/docenti/c/antonio.chella/en/index.html"><i class="fa fa-link"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/antonio-chella-5a94b9114/"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/people/lola.jpg" alt="" width="160" height="160" class="img-responsive img-circle">
+            <h4>Dr. Lola Cañamero</h4>
+                        <p class="text-muted">University of Hertfordshire, U.K.<br>&nbsp;</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="http://www.emotion-modeling.info/"><i class="fa fa-link"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/people/jordi.jpg" alt="" width="160" height="160" class="img-responsive img-circle">
+            <h4>Jordi Bieger</h4>
+                        <p class="text-muted">Delft University of Technology, The Netherlands &amp;<br>Reykjavik University, Iceland</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="http://jordi.cyberbyte.nl"><i class="fa fa-link"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/jbieger/"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <h3 class="section-heading text-center">Evaluation of Generality &amp; Progress in AI</h3>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/people/jose.jpg" alt="" width="160" height="160" class="img-responsive img-circle">
+            <h4>Dr. José Hernández-Orallo (contact)</h4>
+                        <p class="text-muted">Polytechnic University of Valencia, Spain</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="http://users.dsic.upv.es/~jorallo/"><i class="fa fa-link"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/people/sean.jpg" alt="" width="160" height="160" class="img-responsive img-circle">
+            <h4>Dr. Seán Ó hÉigeartaigh</h4>
+                        <p class="text-muted">Centre for the Study of Existential Risk, U.K.</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="http://www.crassh.cam.ac.uk/people/profile/sean-o-heigeartaigh"><i class="fa fa-link"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/sean-o-heigeartaigh-03b33b29/"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/people/nader.jpg" alt="" width="160" height="160" class="img-responsive img-circle">
+            <h4>Dr. Nader Chmait</h4>
+                        <p class="text-muted">Victoria University, Australia</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="http://users.monash.edu.au/~naderc/"><i class="fa fa-link"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/naderchmait/"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/people/nando.jpg" alt="" width="160" height="160" class="img-responsive img-circle">
+            <h4>Dr. Fernando Martínez-Plumed</h4>
+                        <p class="text-muted">Polytechnic University of Valencia, Spain</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="http://users.dsic.upv.es/~fmartinez/"><i class="fa fa-link"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/fmartinezplumed/"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/people/shahar.jpg" alt="" width="160" height="160" class="img-responsive img-circle">
+            <h4>Dr. Shahar Avin</h4>
+                        <p class="text-muted">Centre for the Study of Existential Risk, U.K.</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="http://www.crassh.cam.ac.uk/people/profile/shahar"><i class="fa fa-link"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/shaharavin/"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                  <h3 class="section-heading">Program Committee</h3>
+                    <table class="table table-hover" style="text-align: left">
+                      <tbody>
+                        <tr><th scope="row">Eizo Akiyama</th>
+                          <td>Tsukuba University, Japan</td></tr>
+                        <tr><th scope="row">Joscha Bach</th>
+                          <td>Harvard University, U.S.</td></tr>
+                        <tr><th scope="row">Marco Baroni</th>
+                          <td>Facebook AI Research, U.S.</td></tr>
+                        <tr><th scope="row">Tarek Richard Besold</th>
+                          <td>City University of London, U.K.</td></tr>
+                        <tr><th scope="row">Jordi Bieger</th>
+                          <td>Delft University of Technology, The Netherlands &amp; Reykjavik University, Iceland</td></tr>
+                        <tr><th scope="row">Selmer Bringsjord</th>
+                          <td>Rensselaer Polytechnic Institute, U.S.</td></tr>
+                        <tr><th scope="row">Miles Brundage</th>
+                          <td>University of Oxford, U.K.</td></tr>
+                        <tr><th scope="row">Lola Cañamero</th>
+                          <td>University of Hertfordshire, U.K.</td></tr>
+                        <tr><th scope="row">Antonio Chella</th>
+                          <td>University of Palermo, Italy</td></tr>
+                        <tr><th scope="row">Virginia Dignum</th>
+                          <td>Delft University of Technology, The Netherlands</td></tr>
+                        <tr><th scope="row">Haris Dindo</th>
+                          <td>Yewno &amp; University of Palermo, Italy</td></tr>
+                        <tr><th scope="row">David Dowe</th>
+                          <td>Monash University, Australia</td></tr>
+                        <tr><th scope="row">Kenji Doya</th>
+                          <td>Okinawa Institute of Science and Technology, Japan</td></tr>
+                        <tr><th scope="row">Emmanuel Dupoux</th>
+                          <td>EHESS, France</td></tr>
+                        <tr><th scope="row">Jan Feyereisl</th>
+                          <td>AI Roadmap Institute &amp; GoodAI, Czech Republic</td></tr>
+                        <tr><th scope="row">Patrick Hammer</th>
+                          <td>Temple University, U.S.</td></tr>
+                        <tr><th scope="row">Helgi P. Helgason</th>
+                          <td>Activity Steeam, Iceland</td></tr>
+                        <tr><th scope="row">Bernhard Hengst</th>
+                          <td>University of New South Wales, Australia</td></tr>
+                        <tr><th scope="row">Sean Holden</th>
+                          <td>University of Cambride, U.K.</td></tr>
+                        <tr><th scope="row">Hidenori Kawamura</th>
+                          <td>Hokkaido University, Japan</td></tr>
+                        <tr><th scope="row">David Kremelberg</th>
+                          <td>Icelandic Institute for Intelligent Machines, Iceland</td></tr>
+                        <tr><th scope="row">Satoshi Kurihara</th>
+                          <td>Keio University, Japan</td></tr>
+                        <tr><th scope="row">Othalia Larue</th>
+                          <td>Wright State University, U.S.</td></tr>
+                        <tr><th scope="row">Ramon Lopez de Mantaras</th>
+                          <td>AI Research Institute or the Spanish National Research Council, Spain</td></tr>
+                        <tr><th scope="row">Richard Mallah</th>
+                          <td>Future of Life Institute, U.S.</td></tr>
+                        <tr><th scope="row">Tomas Mikolov</th>
+                          <td>Facebook AI Research, U.S.</td></tr>
+                        <tr><th scope="row">Itsuki Noda</th>
+                          <td>National Institute of Advanced Industrial Science and Technology, Japan</td></tr>
+                        <tr><th scope="row">Frans A. Oliehoek</th>
+                          <td>University Of Liverpool, U.K.</td></tr>
+                        <tr><th scope="row">Satoshi Ono</th>
+                          <td>Kagoshima University, Japan</td></tr>
+                        <tr><th scope="row">Laurent Orseau</th>
+                          <td>DeepMind, U.K.</td></tr>
+                        <tr><th scope="row">Ricardo B.C. Prudencio</th>
+                          <td>Federal University of Pernambuco, Brazil</td></tr>
+                        <tr><th scope="row">Gavin Rens</th>
+                          <td>University of Cape Town, South Africa</td></tr>
+                        <tr><th scope="row">Hiroyuki Sato</th>
+                          <td>University of Electro-Communications, Japan</td></tr>
+                        <tr><th scope="row">Ute Schmid</th>
+                          <td>Universität Bamberg, Germany</td></tr>
+                        <tr><th scope="row">Murray Shanahan</th>
+                          <td>Imperial College London &amp; DeepMind, U.K.</td></tr>
+                        <tr><th scope="row">Carles Sierra</th>
+                          <td>IIIA-CSIC, Spain &amp; UT Sydney, Australia</td></tr>
+                        <tr><th scope="row">Jim Spohrer</th>
+                          <td>IBM Research, U.S.</td></tr>
+                        <tr><th scope="row">Bas Steunebrink</th>
+                          <td>NNAISENSE, Switzerland</td></tr>
+                        <tr><th scope="row">Claes Strannegård</th>
+                          <td>Chalmers University of Technology &amp; University of Gothenburg, Sweden</td></tr>
+                        <tr><th scope="row">Reiji Suzuki</th>
+                          <td>Nagoya University, Japan</td></tr>
+                        <tr><th scope="row">Tadahiro Taniguchi</th>
+                          <td>Ritsumeikan University, Japan</td></tr>
+                        <tr><th scope="row">Kristinn R. Thórisson</th>
+                          <td>Reykjavik University &amp; Icelandic Institute for Intelligent Machines, Iceland</td></tr>
+                        <tr><th scope="row">Hiroaki Wagatsuma</th>
+                          <td>Kyushu Institute of Technology, Japan</td></tr>
+                        <tr><th scope="row">Hiroshi Yamakawa</th>
+                          <td>Dwango Artificial Intelligence Laboratory, Japan</td></tr>
+                        <tr><th scope="row">Masahito Yamamoto</th>
+                          <td>Hokkaido University, Japan</td></tr>
+                        <tr><th scope="row">Pei Wang</th>
+                          <td>Temple University, U.S.</td></tr>
+                      </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="submission" class="bg-light-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Submission</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <p><strong>Papers</strong> should be between 2 and 12 pages (excluding references) and describe the authors' original work in full (no extended abstracts). Formatting Guidelines, LaTeX Styles and Word Template can be dowloaded from <a href="http://ijcai-18.org/FormattingGuidelinesIJCAI-18.zip">here</a>. Papers will be subjected to peer-review and can be accepted for oral presentation and/or poster presentation. For papers that have previously been submitted to IJCAI and rejected, we ask authors to append the reviews and their responses to aid our review process. </p>
+            <p>Proposals for <strong>Demonstrations</strong> should be accompanied with a 2-page description for inclusion in the workshop's pre-proceedings. Examples include, but are not limited to: (interactively) demonstrating the performance of a robot, (cognitive) architecture, or design methodology.</p>
+            <p>Oral presentations should be given by one of the authors during one of the <u>Contributed Talks Sessions</u>. Posters and demonstrations will be presented during the <u>Demonstrations and Posters Session</u>. </p>
+<p>Submission should be made before the deadline on TBA. Authors can access submitted material on EasyChair<!-- using <a href="https://easychair.org/conferences/?conf=aga2017">this link</a-->.</p>
+<p>Accepted papers will be gathered into a volume of <!--a href="#proceedings" class="page-scroll"-->pre-proceedings<!--/a--> and published on this website before the workshop. We are looking into the possibility of producing a special issue for an archival journal.</p>
+<p></p>
+          </div>
+        </div>
+        <!--div class="row">
+          <div class="col-lg-12 text-center">
+            <a href="https://easychair.org/conferences/?conf=aga2018" class="btn btn-xl">submit camera-ready</a>
+          </div>
+        </div-->
+      </div>
+    </section>
+    
+    <!-- Logos Aside -->
+    <aside class="clients">
+        <div class="container">
+            <!-- EGPAI -->
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="https://www.upv.es/index-en.html">
+                        <img src="img/logos/valencia.png" class="img-responsive img-centered" alt="Polytechnic University of Valencia">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="https://www.cser.ac.uk/">
+                    	<img src="img/logos/cser.png" class="img-responsive img-centered" alt="Centre for the Study of Existential Risk">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="https://www.vu.edu.au/">
+                        <img src="img/logos/victoria.png" class="img-responsive img-centered" alt="Victoria University">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="http://lcfi.ac.uk/"> 
+                    	<img src="img/logos/cfi.png" class="img-responsive img-centered" alt="Leverhulme Institute for the Future of Intelligence">
+                    </a>
+                </div>
+            </div>
+            
+            <!-- AGA -->
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="http://en.ru.is/">
+                        <img src="img/logos/ru.png" class="img-responsive img-centered" alt="Reykjavik University">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="https://www.herts.ac.uk/">
+                    	<img src="img/logos/herts.png" class="img-responsive img-centered" alt="University of Hertfordshire">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="http://www.iiim.is">
+                        <img src="img/logos/iiim-logo-2013.png" class="img-responsive img-centered" alt="IIIM">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="http://temple.edu"> 
+                    	<img src="img/logos/temple_high.png" class="img-responsive img-centered" alt="Temple University">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="http://www.unipa.it/"> 
+                    	<img src="img/logos/palermo.png" class="img-responsive img-centered" alt="University of Palermo">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="https://www.gu.se/english"> 
+                    	<img src="img/logos/gothenburg.gif" class="img-responsive img-centered" alt="University of Gothenburg">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="https://www.chalmers.se/en/Pages/default.aspx"> 
+                    	<img src="img/logos/chalmers.png" class="img-responsive img-centered" alt="Chalmers University of Technology">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="https://www.tudelft.nl/en/"> 
+                    	<img src="img/logos/delft.png" class="img-responsive img-centered" alt="Delft University of Technology">
+                    </a>
+                </div>
+            </div>
+            
+            <!-- AAEA -->
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="http://www.uec.ac.jp/eng/">
+                        <img src="img/logos/uec.png" class="img-responsive img-centered" alt="University of Electro-Communications">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="https://www.oist.jp/">
+                    	<img src="img/logos/oist.png" class="img-responsive img-centered" alt="Okinawa Institute for Science and Technology">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="http://www.aist.go.jp/index_en.html">
+                        <img src="img/logos/aist.png" class="img-responsive img-centered" alt="National Institute of Advanced Industrial Science and Technology">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="http://www.kyutech.ac.jp/english/"> 
+                    	<img src="img/logos/kyushu.png" class="img-responsive img-centered" alt="Kyushu Institute of Technology">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="http://en.ritsumei.ac.jp/"> 
+                    	<img src="img/logos/ritsumeikan.gif" class="img-responsive img-centered" alt="Ritsumeikan University">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="https://www.u-tokyo.ac.jp/en/"> 
+                    	<img src="img/logos/tokyo.png" class="img-responsive img-centered" alt="University of Tokyo">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="http://ailab.dwango.co.jp/en/"> 
+                    	<img src="img/logos/dwango.png" class="img-responsive img-centered" alt="Dwango AI Lab">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </aside>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>
