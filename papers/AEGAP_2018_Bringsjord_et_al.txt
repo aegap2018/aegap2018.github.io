@@ -1,0 +1,4 @@
+Tentacular Artificial Intelligence, and the Architecture Thereof, Introduced
+Selmer Bringsjord, Naveen Sundar Govindarajulu, Atriya Sen, Matthew Peveler, Biplav Srivastava and Kartik Talamadupula
+
+We briefly introduce herein a new form of distributed, multi-agent artificial intelligence, which we refer to as “tentacular.” Tentacular AI is distinguished by six attributes, which among other things entail a capacity for reasoning and planning based in highly expressive calculi (logics), and which enlists subsidiary agents across distances circumscribed only by the reach of the Internet.

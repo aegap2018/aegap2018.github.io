@@ -1,0 +1,4 @@
+Data Mining by Non-Axiomatic Reasoning
+Patrick Hammer
+
+Data Mining takes many forms and is usually carried out by algorithms that were specially designed for the task at hand. In this paper we present the usage of a Non-Axiomatic Reasoning System (NARS) for Data Mining purposes. NARS is a general-purpose reasoner that enables reasoning about data while not being restricted to specific Data Mining problems, allowing for a broad range of applications. This paper evalu- ates the approach on specific data sets, and contains improvements and comparisons with other techniques. Additionally, the included LazyMiner use case demonstrates autonomous NARS-based rule mining under hard resource constraints on mobile devices.

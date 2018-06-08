@@ -1,0 +1,4 @@
+Using propensity score matching for bias-reduction in the comparison of performance between AI agents
+Nader Chmait
+
+Randomised and controlled experimentation is not always possible when evaluating AI agents over performance tests. Such test environments are usually designed and/or modified to the specifications of the evaluated agents. In this paper, we discuss the use of the propensity score matching statistical technique for eliminating or reducing bias when analysing and comparing agent performance-scores across different environmental settings. We show how, once matching has been achieved, the contrast in performance scores between two evaluated agents can vary significantly. Therefore, matching on propensity scores can enable a fair comparative assessment of performance between agents that cannot be evaluated over identical environments and experimental settings.
