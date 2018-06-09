@@ -103,7 +103,7 @@
     </header>
 
     <!-- Overview Section -->
-    <section id="cfp" class="bg-light-gray">
+    <section id="cfp" class="bg-light-white">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 text-justify">
@@ -209,7 +209,7 @@
         </div>
     </section>
 
-    <section id="keynote">
+    <section id="keynote" class="bg-light-gray"> 
         <div class="container">
             <div class="row text-center">
                 <div class="about_title col-text-center section-title wow" data-wow-delay="0.3s">        
@@ -313,9 +313,11 @@
                     <h2 class="section-heading">Program</h2>
                 </div>
             </div>
+            <p align = "center"> The program will consist of invited talks, contributed talks, and group discussions. Below is a very rough outline. More details will follow. </p>
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    The program will consist of invited talks, contributed talks, and group discussions. Below is a very rough outline. More details will follow.
+                <div class="col-lg-2 text-center">
+                </div>
+                <div class="col-lg-8 text-center">
                     <table class="table table-hover table-striped" style="text-align: left">
                       <thead>
                         <tr>
@@ -335,6 +337,7 @@
                       </tbody>
                     </table>
                 </div>
+
                 <!--div class="col-sm-4 text-center">
                     <h3 class="section-subheading" style="margin-bottom: 10px;">Invited speaker:</h3>
                     <div class="team-member" style="margin: 0;">
@@ -359,24 +362,248 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
+
+
+
           <p>Papers were accepted after being peer reviewed by 1-2 reviewers per paper. Links lead to abstracts (full papers will be published after camera-ready versions have been received).</p>
-          <ul>
-            <li>Justin Svegliato and Shlomo Zilberstein <br> <a href="papers/AEGAP_2018_Svegliato_et_al.txt">Adaptive Metareasoning for Bounded Rational Agents</a></li>
-            <li>Adam Liska, Germán Kruszewski and Marco Baroni <br> <a href="papers/AEGAP_2018_Liska_et_al.txt">Memorize or generalize? Searching for a compositional RNN in a haystack</a></li>
-            <li>Nicolas Bougie and Ryutaro Ichise <br> <a href="papers/AEGAP_2018_Bougie_et_al.txt">Rule-based Reinforcement Learning augmented by External Knowledge</a></li>
-            <li>Nader Chmait <br> <a href="papers/AEGAP_2018_Chmait.txt">Using propensity score matching for bias-reduction in the comparison of performance between AI agents</a></li>
-            <li>Enrique Fernández-Macías, Emilia Gómez, José Hernández-Orallo, Bao Sheng Loe, Bertin Martens, Fernando Martínez-Plumed and Songül Tolan <br> <a href="papers/AEGAP_2018_Fernandez-Macias_et_al.txt">A multidisciplinary task-based perspective for evaluating the impact of AI autonomy and generality on the future of work</a></li>
-            <li>Claes Strannegård, Wen Xu and Niklas Engsner <br> <a href="papers/AEGAP_2018_Strannegard_et_al.txt">Evolution and Learning in Generic Animats</a></li>
-            <li>Patrick Hammer <br> <a href="papers/AEGAP_2018_Hammer.txt">Data Mining by Non-Axiomatic Reasoning</a></li>
-            <li>Selmer Bringsjord, Naveen Sundar Govindarajulu, Atriya Sen, Matthew Peveler, Biplav Srivastava and Kartik Talamadupula <br> <a href="papers/AEGAP_2018_Bringsjord_et_al.txt">Tentacular Artificial Intelligence, and the Architecture Thereof, Introduced</a></li>
-            <li>Jordi Bieger and Kristinn R. Thórisson <br> <a href="papers/AEGAP_2018_Bieger_et_al.txt">Requirements for General Intelligence: A Case Study in Trustworthy Cumulative Learning for Air Traffic Control</a></li>
-            <li>Jisha Maniamma and Hiroaki Wagatsuma <br> <a href="papers/AEGAP_2018_Maniamma_et_al.txt">Human Abduction for Solving Puzzles to Find Logically Explicable Rules to Discriminate Two Picture Groups Ostracized Each Other: An Ontology-based Model</a></li>
-            <li>Eray Özkural <br> <a href="papers/AEGAP_2018_Ozkural_Foundations.txt">The Foundations of Deep Learning with a Path Towards General Intelligence</a></li>
-            <li>Eray Özkural <br> <a href="papers/AEGAP_2018_Ozkural_Omega.txt">Omega: An Architecture for AI Unification</a></li>
-            <li>Kristinn R. Thórisson and Arthur Talbot <br> <a href="papers/AEGAP_2018_Thorisson_et_al.txt">Abduction, Deduction &amp; Causal-Relational Models</a></li>
-            
-          </ul>
-          </div>
+
+          <div class="col-lg-12 text-left">
+           <table class="table table-hover table-striped" style="text-align: left">
+            <tbody>
+                        <tr><td scope="row"><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#paper1">Abstract</button> </td><td>Justin Svegliato and Shlomo Zilberstein <b>Adaptive Metareasoning for Bounded Rational Agents </b></td></tr>
+                        <div class="modal fade" id="paper1" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">Adaptive Metareasoning for Bounded Rational Agents</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p>In computational approaches to bounded rationality, metareasoning enables intelligent agents to optimize their own decision-making process in order to produce effective action in a timely manner. While there have been substantial efforts to develop effective meta-level control for anytime algorithms, existing techniques rely on extensive offline work, imposing several critical assumptions that diminish their effectiveness and limit their practical utility in the real world. In order to largely eliminate these assumptions, adaptive metareasoning aims to give intelligent agents the capacity to adapt to each individual instance of the problem at hand without the need for significant offline preprocessing. Building on our recent work, we first propose a model-free approach to meta-level control based on reinforcement learning. We then offer a meta-level control technique that uses TD learning. Finally, we show empirically that our approach is effective on a common benchmark in meta-level control.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+                         <tr><td scope="row"><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#paper2">Abstract</button> </td><td> Adam Liska, Germán Kruszewski and Marco Baroni <b>Memorize or generalize? Searching for a compositional RNN in a haystack </b></td></tr>
+                         <div class="modal fade" id="paper2" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">Memorize or generalize? Searching for a compositional RNN in a haystack</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p>
+                                    Neural networks are very powerful learning systems, but they do not readily generalize from one task to the other. This is partly due to the fact that they do not learn in a compositional way, that is, by discovering skills that are shared by different tasks, and recombining them to solve new problems. In this paper, we explore the compositional generalization capabilities of recurrent neural networks (RNNs). We first propose the lookup table composition domain as a simple setup to test compositional behaviour and show that it is theoretically possible for a standard RNN to learn to behave compositionally in this domain when trained with standard gradient descent and provided with additional supervision. We then remove this additional supervision and perform a search over a large number of model initializations to investigate the proportion of RNNs that can still converge to a compositional solution. We discover that a small but non-negligible proportion of RNNs do reach partial compositional solutions even without special architectural constraints. This suggests that a combination of gradient descent and evolutionary strategies directly favouring the minority models that developed more compositional approaches might suffice to lead standard RNNs towards compositional solutions.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                         <tr><td scope="row"><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#paper3">Abstract</button> </td><td>  Nicolas Bougie and Ryutaro Ichise <b>Rule-based Reinforcement Learning augmented by External Knowledge </b></td></tr>
+                         <div class="modal fade" id="paper3" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">Rule-based Reinforcement Learning augmented by External Knowledge </h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p>
+                                    Reinforcement learning has achieved several successes in sequential decision problems. However, these methods require a large number of iterations in complex environments. A standard paradigm to tackle this challenge is to extend reinforcement learning to handle deep learning. Lack of interpretability and impossibility to introduce background knowledge limits their usability in many safety-critical real-world scenarios. In this paper, we study how to combine reinforcement learning and external knowledge. We derive a variant version of the Sarsa(λ) algorithm, which we call Sarsarb(λ), that augments data with complex knowledge and exploits similarities among states. We apply our method to a trading task from the Stock Market Environment. We show that the resulting algorithm leads to much better performance but also improves training speed compared to the Deep Qlearning (DQN) algorithm and the Deep Deterministic Policy Gradients (DDPG) algorithm.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+
+                         <tr><td scope="row"><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#paper4">Abstract</button> </td><td>  Nader Chmait <b>Using propensity score matching for bias-reduction in the comparison of performance between AI agents </b></td></tr>
+                         <div class="modal fade" id="paper4" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">Using propensity score matching for bias-reduction in the comparison of performance between AI agents </h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p>
+                                   Randomised and controlled experimentation is not always possible when evaluating AI agents over performance tests. Such test environments are usually designed and/or modified to the specifications of the evaluated agents. In this paper, we discuss the use of the propensity score matching statistical technique for eliminating or reducing bias when analysing and comparing agent performance-scores across different environmental settings. We show how, once matching has been achieved, the contrast in performance scores between two evaluated agents can vary significantly. Therefore, matching on propensity scores can enable a fair comparative assessment of performance between agents that cannot be evaluated over identical environments and experimental settings.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                         <tr><td scope="row"><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#paper5">Abstract</button> </td><td>  Enrique Fernández-Macías, Emilia Gómez, José Hernández-Orallo, Bao Sheng Loe, Bertin Martens, Fernando Martínez-Plumed and Songül Tolan  <b>A multidisciplinary task-based perspective for evaluating the impact of AI autonomy and generality on the future of work </b></td></tr>
+                         <div class="modal fade" id="paper5" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">A multidisciplinary task-based perspective for evaluating the impact of AI autonomy and generality on the future of work </h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p>
+                                   This paper presents a multidisciplinary task approach for assessing the impact of artificial intelligence on the future of work. We provide definitions of a task from two main perspectives: socioeconomic and computational. We propose to explore ways in which we can integrate or map these perspectives, and link them with the skills or capabilities required by them, for humans and AI systems. Finally, we argue that in order to understand the dynamics of tasks, we have to explore the relevance of autonomy and generality of AI systems for the automation or alteration of the workplace.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                         <tr><td scope="row"><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#paper6">Abstract</button> </td><td>  Claes Strannegård, Wen Xu and Niklas Engsner  <b>Evolution and Learning in Generic Animats </b></td></tr>
+                         <div class="modal fade" id="paper6" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">Evolution and Learning in Generic Animats</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p>A generic model is presented for ecosystems inhabited by artificial animals, or animats, that develop over time. The individual animats develop continuously by means of generic mechanisms for learning, forgetting, and decisionmaking. At the same time, the animat populations develop in an evolutionary process based on fixed mechanisms for sexual and asexual reproduction, mutation, and death. The animats of the ecosystems move, eat, learn, make decisions, interact with other animats, reproduce, and die. Each animat has its individual sets of homeostatic variables, sensors, and motors. It also has its own memory network that forms the basis of its decision-making. This memory network has an architectures (i.e. graph topology) that changes over time via mechanisms for adding and removing nodes. Our approach combines genetic algorithms, reinforcement learning, homeostatic decision-making, and dynamic concept formation. To illustrate the generality of the model, five examples of ecosystems are given, ranging from a simple world inhabited by a single frog to a more complex world in which grass, sheep, and wolves interact.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <tr><td scope="row"><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#paper7">Abstract</button> </td><td>  Patrick Hammer  <b>Data Mining by Non-Axiomatic Reasoning </b></td></tr>
+                         <div class="modal fade" id="paper7" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">Data Mining by Non-Axiomatic Reasoning </h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p>Data Mining takes many forms and is usually carried out by algorithms that were specially designed for the task at hand. In this paper we present the usage of a Non-Axiomatic Reasoning System (NARS) for Data Mining purposes. NARS is a general-purpose reasoner that enables reasoning about data while not being restricted to specific Data Mining problems, allowing for a broad range of applications. This paper evalu- ates the approach on specific data sets, and contains improvements and comparisons with other techniques. Additionally, the included LazyMiner use case demonstrates autonomous NARS-based rule mining under hard resource constraints on mobile devices.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+                        <tr><td scope="row"><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#paper8">Abstract</button> </td><td>  Selmer Bringsjord, Naveen Sundar Govindarajulu, Atriya Sen, Matthew Peveler, Biplav Srivastava and Kartik Talamadupula  <b>Tentacular Artificial Intelligence, and the Architecture Thereof, Introduced </b></td></tr>
+                         <div class="modal fade" id="paper8" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">Tentacular Artificial Intelligence, and the Architecture Thereof, Introduced </h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p>We briefly introduce herein a new form of distributed, multi-agent artificial intelligence, which we refer to as “tentacular.” Tentacular AI is distinguished by six attributes, which among other things entail a capacity for reasoning and planning based in highly expressive calculi (logics), and which enlists subsidiary agents across distances circumscribed only by the reach of the Internet.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <tr><td scope="row"><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#paper9">Abstract</button> </td><td> Jordi Bieger and Kristinn R. Thórisson  <b>Requirements for General Intelligence: A Case Study in Trustworthy Cumulative Learning for Air Traffic Control </b></td></tr>
+                         <div class="modal fade" id="paper9" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">Requirements for General Intelligence: A Case Study in Trustworthy Cumulative Learning for Air Traffic Control </h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p>While many evaluation procedures have been proposed in past research for artificial general intelligence (AGI), few take the time to carefully list the (minimum, general) requirements that an AGI-aspiring (cognitive) control architecture is intended to eventually meet. Such requirements could guide the design process and help evaluate the potential of an architecture to become generally intelligent—not through measuring the performance of a running AI system, but through a white-box, offline evaluation of what requirements have been met to what degree. We analyze the requirements on a more concrete task from the air traffic control (ATC) domain, and while this has some interesting aspects relevant for AI research in and of itself, it has many things in common with the requirements for AGI and has clear relevance to the field as a whole. To avoid major disruptions to proven workflows in safety-critical domains, a trustworthy, robust and adaptable AI system must work side-by-side with a human operator and cumulatively learn new tasks that can gradually be introduced into the operator’s complex workflow. Our analysis results in a set of minimal/necessary requirements that can guide the development of AGI-aspiring architectures. We then evaluate the degree to which several common AI approaches and architectures meet these requirements.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                       <tr><td scope="row"><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#paper10">Abstract</button> </td><td> Jisha Maniamma and Hiroaki Wagatsuma  <b>Human Abduction for Solving Puzzles to Find Logically Explicable Rules to Discriminate Two Picture Groups Ostracized Each Other: An Ontology-based Model </b></td></tr>
+                         <div class="modal fade" id="paper10" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">Human Abduction for Solving Puzzles to Find Logically Explicable Rules to Discriminate Two Picture Groups Ostracized Each Other: An Ontology-based Model</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p>Human brains not only have a learning ability based on the probabilistic model known as machine learning scheme, but also the logical reasoning and an intuition to understand what the whole picture represents as cognitive competency. Former ability can be reproduced artificially such as deep learning system, while the latter cognitive function is expected to provide in Semantic Web approaches recently. Bongard Problem (BP) was proposed as a benchmark test for human-level intelligence to solve ill-posed problems. BP is a set of puzzles and the solution is not determined by visual characteristics locally but it is only determined by relational information with a logical consistency in total. In the present paper, we proposed a hierarchical model for solving BPs to mimic how human locally think by using semantic (meta-descriptive) knowledge accompanied with logical reasoning steps. In the assumption that the long-term memory kept in an ontological way with logical rules, the reasoning system was designed to generate automatically a minimum set of properties in representation to satisfy the existence of the total logical consistency from given data set as a short-term memory after conversion to the RDF form in OWL using the Java-based interface to treat dynamic ontological instances. Our computer experiments demonstrated that the proposed framework works well as the BP solver in the logical inference process narrowing down possibilities to obtain a unique solution.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <tr><td scope="row"><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#paper11">Abstract</button> </td><td> Eray Özkural  <b>The Foundations of Deep Learning with a Path Towards General Intelligence </b></td></tr>
+                         <div class="modal fade" id="paper11" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">The Foundations of Deep Learning with a Path Towards General Intelligence </h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p>Like any formal field of science, AI may be ap- proached axiomatically. We formulate require- ments for a general-purpose, human-level AI system in terms of postulates. We review the methodology of deep learning, examining the explicit and tacit assumptions in deep learn- ing research. Deep Learning methodology seeks to overcome limitations in traditional machine learning research as it combines facets of model richness, generality, and practical applicabil- ity. The methodology so far has produced out- standing results due to a productive synergy of function approximation, under plausible as- sumptions of irreducibility and the efficiency of back-propagation family of algorithms. We examine these winning traits of deep learn- ing, and also observe the various known failure modes of deep learning. We conclude by giv- ing recommendations on how to extend deep learning methodology to cover the postulates of general-purpose AI including modularity, and cognitive architecture. We also relate deep learning to advances in theoretical neuroscience research.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                       <tr><td scope="row"><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#paper12">Abstract</button> </td><td>  Eray Özkural  <b>Omega: An Architecture for AI Unification</b></td></tr>
+                         <div class="modal fade" id="paper12" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">Omega: An Architecture for AI Unification </h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p>We introduce the open-ended, modular, selfimproving Omega AI unification architecture which is a refinement of Solomonoff's Alpha architecture, as considered from first principles. The architecture embodies several crucial principles of general intelligence including diversity of representations, diversity of data types, integrated memory, modularity, and higherorder cognition. We retain the basic design of a fundamental algorithmic substrate called an \AI kernel" for problem solving and basic cognitive functions like memory, and a larger, modular architecture that re-uses the kernel in many ways. Omega includes eight representation languages, which are brie y introduced. We review the broad software architecture, higher-order cognition, self-improvement, modular neural architectures, intelligent agents, the process and memory hierarchy, hardware abstraction, peer-to-peer computing, and data abstraction facility.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                         <tr><td scope="row"><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#paper13">Abstract</button> </td><td>  Kristinn R. Thórisson and Arthur Talbot  <b>Abduction, Deduction &amp; Causal-Relational Models</b></td></tr>
+                         <div class="modal fade" id="paper13" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title">Abduction, Deduction &amp; Causal-Relational Models</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <p>We consider the role of abduction and deduction in a controller that explicitly and continuously models its environment, and uses these models as a basis for its predictions and actions. Several important features of such cumulative modeling are identified, including how to prune and continuously refine the model set towards representing true causal relations between observed variables.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+              </tbody>
+            </table>
+
+                        
+
+                        
+         </div>
+        </div>
         </div>
         <!--div class="row">
           <div class="col-lg-12 text-center">
