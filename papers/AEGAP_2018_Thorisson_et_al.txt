@@ -1,4 +1,4 @@
 Abduction, Deduction & Causal-Relational Models
 Kristinn R. Thórisson and Arthur Talbot
 
-We consider the role of abduction and deduction in a controller that explicitly and continuously models its environment, and uses these models as a basis for its predictions and actions. Several important features of such cumulative modeling are identified, including how to prune and continuously refine the model set towards representing true causal relations between observed variables.
+We consider the role of reasoning in a resource-limited controller that explicitly and continuously models its environment, and uses these models as a basis for its prediction and action. Several important features of such cumulative modeling are identified, with an emphasis on how abduction and deduction can be used to continuously prune and refine the model set towards representing true causal relations between observed and manipulated variables.
